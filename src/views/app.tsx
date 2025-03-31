@@ -1,11 +1,10 @@
 import { CounterPage } from "$/pages/counter.page";
 import { HomePage } from "$/pages/home.page";
-import { PropsWithChildren } from "@kitajs/html";
 
 export function App() {
 
   return (
-    <div x-data="" class="bg-base-light h-screen flex flex-col">
+    <div x-data="" class="dark h-screen flex flex-col">
       <header class={"flex items-center justify-center p-2 border-b"}>
         <nav>
           <ul class={"flex items-center justify-center gap-x-8 [&_a]:p-4"}>

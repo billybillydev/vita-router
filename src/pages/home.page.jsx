@@ -1,4 +1,4 @@
-import jsxpineLogo from "/jsxpine.jpg";
+import jsxpineLogo from "/jsxpine-logo-light-2-no-text.svg";
 import viteLogo from "/vite.svg";
 
 export function HomePage() {
