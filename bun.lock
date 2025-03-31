@@ -13,6 +13,7 @@
         "alpinejs": "^3.14.9",
         "alpinejs-manage": "^1.0.4",
         "clsx": "^2.1.1",
+        "pinecone-router": "^6.2.4",
       },
       "devDependencies": {
         "@types/alpinejs": "^3.13.11",
@@ -324,6 +325,8 @@
     "picomatch": ["picomatch@2.3.1", "https://eu-artifactory.apps.ge-healthcare.net/artifactory/api/npm/npm-ifabric-all/picomatch/-/picomatch-2.3.1.tgz", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
 
     "pify": ["pify@2.3.0", "https://eu-artifactory.apps.ge-healthcare.net/artifactory/api/npm/npm-ifabric-all/pify/-/pify-2.3.0.tgz", {}, "sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog=="],
+
+    "pinecone-router": ["pinecone-router@6.2.4", "https://eu-artifactory.apps.ge-healthcare.net/artifactory/api/npm/npm-ifabric-all/pinecone-router/-/pinecone-router-6.2.4.tgz", {}, "sha512-0fuVga3iaHykWmr4Tw0vZlNGdJ7aaScm9V7iQBg73/TntnmvSDGDXfPaeD9CbWEL9qKTf7MyrtvrVMR1+5UbGQ=="],
 
     "pirates": ["pirates@4.0.7", "https://eu-artifactory.apps.ge-healthcare.net/artifactory/api/npm/npm-ifabric-all/pirates/-/pirates-4.0.7.tgz", {}, "sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA=="],
 

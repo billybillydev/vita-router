@@ -1,30 +1,28 @@
-import { Counter } from "$/views/counter";
-import jsxpineLogo from "/jsxpine.jpg";
-import viteLogo from "/vite.svg";
+import { CounterPage } from "$/pages/counter.page";
+import { HomePage } from "$/pages/home.page";
+import { PropsWithChildren } from "@kitajs/html";
 
 export function App() {
-  const readDoccs = new Intl.ListFormat("en", {
-    style: "long",
-    type: "disjunction",
-  }).format(["vite", "jsxpine"]);
 
   return (
-    <div class="bg-base-light h-screen flex flex-col items-center justify-center gap-y-16">
-      <div class="flex flex-wrap items-center justify-around gap-x-12">
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} class="w-24" alt="Vite logo" />
-        </a>
-        <a href="https://www.jsxpine.com/core" target="_blank">
-          <img src={jsxpineLogo} class="w-24" alt="JSXPine logo" />
-        </a>
-      </div>
-      <div class="flex flex-col justify-center items-center">
-        <h1>Vite + JSXPine</h1>
-        <Counter />
-        <p class="read-the-docs">
-          Click on the {readDoccs} logos to learn more
-        </p>
-      </div>
+    <div x-data="" class="bg-base-light h-screen flex flex-col">
+      <header class={"flex items-center justify-center p-2 border-b"}>
+        <nav>
+          <ul class={"flex items-center justify-center gap-x-8 [&_a]:p-4"}>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/counter">Counter</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class={"flex flex-col items-center justify-center gap-y-16 grow"}>
+        <HomePage />
+        <CounterPage />
+      </main>
+      <footer class={"flex iems-center justify-center p-2 border-t"}>Vite + JSXPine {new Date().getFullYear()}</footer>
     </div>
   );
 }

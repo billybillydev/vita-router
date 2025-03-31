@@ -28,6 +28,7 @@
     "@kitajs/ts-html-plugin": "^4.1.1",
     "alpinejs": "^3.14.9",
     "alpinejs-manage": "^1.0.4",
-    "clsx": "^2.1.1"
+    "clsx": "^2.1.1",
+    "pinecone-router": "^6.2.4"
   }
 }

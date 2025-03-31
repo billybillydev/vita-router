@@ -1,5 +1,5 @@
-
 import Alpine from "alpinejs";
+import PineconeRouter from 'https://cdn.jsdelivr.net/npm/pinecone-router@6.2.4/dist/router.esm.js'
 import focus from "@alpinejs/focus";
 import collapse from "@alpinejs/collapse";
 import manage from "alpinejs-manage";
@@ -21,5 +21,6 @@ Alpine.magic("now", nowMagic);
 Alpine.plugin(focus);
 Alpine.plugin(collapse);
 Alpine.plugin(manage);
+Alpine.plugin(PineconeRouter);
 
 export default Alpine;
